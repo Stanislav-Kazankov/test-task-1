@@ -1,0 +1,60 @@
+.big-h1 {
+  font-family: Galien, Times, serif;
+  font-weight: 700;
+
+  letter-spacing: 0.04em;
+  color: $blue01;
+}
+
+@media (min-width: $fablt-width) and (max-width: $midl-tablt-width2) {
+  .big-h1 {
+    width: 302px;
+  }
+}
+
+@media (max-width: $max-fablt-width) {
+  .big-h1 {
+    min-height: 76px;
+
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+@media (min-width: $tablt-width) and (max-width: $midl-tablt-width1) {
+  .big-h1 {
+    min-height: 86px;
+
+    font-size: 36px;
+    line-height: 43px;
+  }
+}
+
+@media (min-width: $midl-tablt-width1 + 1px) and (max-width: $midl-tablt-width2) {
+  .big-h1 {
+    min-height: 92px;
+
+    font-size: 38px;
+    line-height: 46px;
+  }
+}
+
+@media (min-width: $midl-tablt-width2 + 1px) and (max-width: $max-tablt-width) {
+  .big-h1 {
+    width: 415px;
+    min-height: 120px;
+
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+@media (min-width: $notbk-width) {
+  .big-h1 {
+    width: 525px;
+    min-height: 148px;
+
+    font-size: 64px;
+    line-height: 74px;
+  }
+}

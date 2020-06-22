@@ -1,0 +1,73 @@
+@media (max-width: $max-mobl-width) {
+  .page-hdr {
+    border-bottom: 1px solid $blue06;
+    background-position: center top;
+    background-size-x: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/bg-linear-gradient-min.svg");
+  }
+}
+
+@media (max-width: $tablt-width) {
+  .page-hdr {
+    min-height: 88px;
+  }
+}
+
+@media (min-width: $tablt-width) and (max-width: $midl-tablt-width1) {
+  .page-hdr {
+    min-height: 118px;
+  }
+}
+
+@media (min-width: $midl-tablt-width1 + 1px) {
+  .page-hdr {
+    min-height: 128px;
+  }
+}
+
+.page-hdr__cntr {
+  @include make-cntr();
+  min-height: inherit;
+}
+
+@media (max-width: $tablt-width) {
+  .page-hdr__cntr {
+    width: calc(100% - 66px);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: $tablt-width + 1px) and (max-width: $midl-tablt-width1) {
+  .page-hdr__cntr {
+    width: calc(100% - 90px);
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+}
+
+@media (min-width: $midl-tablt-width1 + 1px)  {
+  .page-hdr__cntr {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: $midl-tablt-width1 + 1px) and (max-width: $max-tablt-width) {
+  .page-hdr__cntr {
+    width: calc(100% - 120px);
+  }
+}
+
+@media (min-width: $notbk-width) and (max-width: $max-notbk-width) {
+  .page-hdr__cntr {
+    width: calc(100% - 166px);
+  }
+}
+
+@media (min-width: $deskt-width) {
+  .page-hdr__cntr {
+    width: 1200px;
+  }
+}

@@ -1,0 +1,58 @@
+.main-nav {
+  @include make-flex();
+  justify-content: space-between;
+  min-height: 48px;
+  padding-left: 1px;
+
+  overflow-y: hidden;
+}
+
+@supports (display: -webkit-flex) {
+  .main-nav {
+    padding-left: 0;
+  }
+}
+
+.main-nav__col {
+  @include make-flex();
+  justify-content: flex-start;
+  @include make-algn-strt();
+  width: 50%;
+
+  overflow: hidden;
+
+  &--rght {
+    justify-content: flex-end;
+
+    padding-top: 8px;
+  }
+}
+
+.main-nav__logo {
+  @include make-flex();
+  margin-right: 20px;
+
+  overflow: hidden;
+}
+
+.main-nav__back-crcl {
+  fill: $blue02;
+}
+
+.main-nav__togl {
+  @include make-flex();
+  justify-content: flex-end;
+
+  @include rset-btn();
+
+  margin-bottom: 8px;
+  margin-left: 20px;
+
+  background-color: transparent;
+
+  overflow: hidden;
+}
+
+.main-nav__burg-svg {
+  fill: $blue03;
+}
