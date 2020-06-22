@@ -1,0 +1,143 @@
+/*present*/
+
+/* New Automation Tool for Your Home */ /*(h1)*/
+
+/* Lorem ipsum dolor sit amet...*/
+/* Blue_01 */
+color: #1F3F68;
+opacity: 0.6;
+
+/* See Our Project */ /*button capt*/
+/*features*/
+
+/* What we do to help our client grow in digital era, *//*h2 h2--blue02*/
+
+/* Bring Technology To Your Comfrotable Home */ /*h3 h3--blue01*/
+
+/* Lorem ipsum dolor sit amet... */
+/* Blue_01 */
+color: #1F3F68;
+opacity: 0.6;
+
+/* Learn more */
+font-size: 14px;
+line-height: 30px;
+/* blue_04 */
+color: #5A98D0;
+
+/* beloved-client */
+
+/* Our Beloved Client *//*h2*/
+
+/* Lorem ipsum dolor sit amet... */
+/* white */
+color: #FFFFFF;
+opacity: 0.6;
+
+/* LOGO CLIENT 1 *//*caption*/
+font-size: 20px;
+line-height: 46px;
+/*identical to box height*/
+letter-spacing: 0.02em;
+/* Gray 6 */
+color: #F2F2F2;
+text-transform: uppercase;
+
+/* More Client */
+font-size: 20px;
+line-height: 46px;
+/* identical to box height*/
+letter-spacing: 0.02em;
+
+/*footer*/
+
+/*footer__top*/
+
+/* Intersted to woek with our team? *//*h2*/
+
+/* Lorem ipsum dolor sit amet... */
+/* white */
+color: #FFFFFF;
+opacity: 0.6;
+
+/* Let’s Talk *//*button caption*/
+
+/* Lorem ipsum dolor sit amet... */
+
+/* +62-812-7313-4321 */
+
+/* hello.afrian@gmail.com */
+
+/* About US */,/* Follow US */ /*h3*/
+
+/* About */
+
+/* 2019 © Afrianska. All rights reserved. */
+/* white */
+color: #FFFFFF;
+opacity: 0.4;
+
+////////////////////////////////////////
+        POPUP
+////////////////////////////////////////
+
+/* SEND US MESSAGE */
+font-size: 20px;
+/* Blue_01 */
+color: #1F3F68;
+
+/* Full Name */
+/* Blue_01 */
+color: #1F3F68;
+opacity: 0.8;
+
+
+/* Your Name */
+/* Blue_01 */
+color: #1F3F68;
+opacity: 0.2;
+
+/* SUBMIT */
+text-align: center;
+text-transform: uppercase;
+
+//////////////////////////////////////////////////
+Learn more - элемент блока
+
+client - элемент блока (список клиентов)
+client--captlz
+
+BODY:
+
+  font-family: Gilroy;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: white;
+
+btn {
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+h2:
+  font-size: 36px;
+  line-height: 46px;
+
+h2--blue02
+  color: #316099;
+
+h3:
+  font-size: 20px;
+  line-height: 30px;
+
+h3--blue01
+  color: #1F3F68;
+
+POPUP:
+  letter-spacing: 0.04em;
+  line-height: 30px;
+
+btn--submit - элемент блока:
+  line-height: 26px;
+
