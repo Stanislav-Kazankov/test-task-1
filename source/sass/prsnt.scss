@@ -166,15 +166,10 @@
   }
 }
 
-@media (min-width: $notbk-width) and (max-width: $max-notbk-width) {
-  .prsnt__text-div {
-    width: 600px;
-  }
-}
-
-@media (min-width: $deskt-width) {
+@media (min-width: $notbk-width) {
   .prsnt__text-div {
     width: 525px;
+    min-height: 600px;
   }
 }
 
